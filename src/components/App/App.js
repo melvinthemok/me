@@ -283,10 +283,10 @@ class App extends Component {
                 <div className='title active'><Icon name='mail outline' />contact</div>
                 <Form action='https://formspree.io/melvinmok.cy@gmail.com' method='POST'>
                   <Form.Group widths='equal'>
-                    <Form.Input label='name' type='text' placeholder='your name' />
-                    <Form.Input label='email' type='email' placeholder='your email' />
+                    <Form.Input label='name' type='text' name='name' placeholder='your name' />
+                    <Form.Input label='email' type='email' name='email' placeholder='your email' />
                   </Form.Group>
-                  <Form.TextArea label='message' type='text' placeholder='your message' />
+                  <Form.TextArea label='message' type='text' name='message' placeholder='your message' />
                   <Button color='red' type='submit' value='Send'><Icon name='send' /></Button>
                 </Form>
               </Header>
