@@ -13,13 +13,17 @@ class App extends Component {
     return (
       <div>
         <Scroll.Element name='splash'>
-          <div id='big-triangle' />
-          <div id='melvin'>melvin</div>
-          <div id='mok'>mok</div>
-          <div id='rectangle' />
-          <div id='web-dev'>full stack web developer</div>
-          <div id='ex-lawyer'>former IP lawyer</div>
-          <div id='small-triangle' />
+          <Grid columns={1}>
+            <Grid.Column width={16} only='computer'>
+              <div id='big-triangle' />
+              <div id='melvin'>melvin</div>
+              <div id='mok'>mok</div>
+              <div id='rectangle' />
+              <div id='web-dev'>full stack web developer</div>
+              <div id='ex-lawyer'>former IP lawyer</div>
+              <div id='small-triangle' />
+            </Grid.Column>
+          </Grid>
         </Scroll.Element>
         <Header as='h1' id='top'>
           <Scroll.Link className='scroll-link' to='splash' smooth offset={-150} duration={500} >

@@ -1,5 +1,5 @@
 body {
-  background: #e9b893;
+  background: #e8e5ca;
   color: #232021;
 }
 
@@ -49,7 +49,7 @@ body {
 #web-dev {
   font-family: 'Inconsolata', sans-serif;
   font-size: 2.25em;
-  color: #e9b893;
+  color: #e8e5ca;
   position: absolute;
   top: 380px;
   left: 470px;
@@ -59,7 +59,7 @@ body {
 #ex-lawyer {
   font-family: 'Inconsolata', sans-serif;
   font-size: 2.25em;
-  color: #e9b893;
+  color: #e8e5ca;
   position: absolute;
   top: 465px;
   left: 525px;
@@ -154,7 +154,7 @@ body {
 .scroll-link {
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
-  color: #e8e5ca;
+  color: #e9b893;
 }
 
 .scroll-link:hover {
@@ -168,5 +168,5 @@ body {
 
 #foot {
   font-family: 'Inconsolata', monospace;
-  color: #e8e5ca;
+  color: #e9b893;
 }
