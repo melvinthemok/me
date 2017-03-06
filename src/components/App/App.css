@@ -1,0 +1,172 @@
+body {
+  background: #e9b893;
+  color: #232021;
+}
+
+#big-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  border-top: 400px solid #bf2330;
+  border-right: 400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-left: 400px solid transparent;
+}
+
+#melvin {
+  font-family: 'Arimo', sans-serif;
+  font-size: 12em;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  position: absolute;
+  top: 344px;
+  left: 43px;
+  transform: rotate(-45deg);
+}
+
+#mok {
+  font-family: 'Arimo', sans-serif;
+  font-size: 12em;
+  font-weight: 900;
+  position: absolute;
+  top: 344px;
+  left: 380px;
+  transform: rotate(-45deg);
+}
+
+#rectangle {
+  position: absolute;
+  top: 180px;
+  left: 400px;
+  height: 120px;
+  width: 900px;
+  background: #232021;
+  transform: rotate(-45deg);
+}
+
+#web-dev {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 2.25em;
+  color: #e9b893;
+  position: absolute;
+  top: 380px;
+  left: 470px;
+  transform: rotate(-45deg);
+}
+
+#ex-lawyer {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 2.25em;
+  color: #e9b893;
+  position: absolute;
+  top: 465px;
+  left: 525px;
+  transform: rotate(-45deg);
+}
+
+#small-triangle {
+  position: absolute;
+  top: -205px;
+  left: 480px;
+  height: 0;
+  width: 0;
+  border-top: 450px solid transparent;
+  border-right: 450px solid #bf2330;
+  border-bottom: 450px solid transparent;
+  border-left: 450px solid transparent;
+}
+
+#top {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  z-index: 1;
+  height: 5em;
+  width: 100%;
+  padding-top: 1.5em;
+}
+
+.M {
+  font-family: 'Arimo', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  margin-left: 0.25em;
+  mix-blend-mode: multiply;
+}
+
+.shiftM {
+  margin-left: -0.795em;
+}
+
+.blue {
+  color: #0091e5;
+}
+
+.red {
+  color: #e42149;
+}
+
+.yellow {
+  color: #fff146;
+}
+
+.dark {
+  color: #232021;
+}
+
+#left {
+  height: 45em;
+}
+
+#main {
+  padding-top: 45em;
+  font-size: 1.25em;
+}
+
+#headshot {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  padding-top: 150px;
+  padding-bottom: 25px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 15%;
+  margin-top: 7.75em;
+  font-size: 1.25em;
+  padding-left: 2.5em;
+}
+
+.scroll-link {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  color: #e8e5ca;
+}
+
+.scroll-link:hover {
+  cursor: pointer;
+  color: #232021;
+}
+
+.active {
+  color: #bf2330;
+}
+
+#foot {
+  font-family: 'Inconsolata', monospace;
+  color: #e8e5ca;
+}
