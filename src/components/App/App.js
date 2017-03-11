@@ -36,7 +36,7 @@ class App extends Component {
           <Grid.Column width={3} id='left' />
           <Grid.Column width={10} id='main'>
             <Scroll.Element name='about'>
-              <Header as='h1' size='huge' textAlign='right'>
+              <Header as='h1' size='large' textAlign='right'>
                 <div className='title active'><Icon name='help' />about</div>
               </Header>
               <Grid stackable verticalAlign='middle' columns={2}>
@@ -65,7 +65,7 @@ class App extends Component {
               </Grid>
             </Scroll.Element>
             <Scroll.Element name='works'>
-              <Header as='h1' size='huge' textAlign='right'>
+              <Header as='h1' size='large' textAlign='right'>
                 <div className='title active'><Icon name='folder outline' />works</div>
               </Header>
               <Card.Group stackable itemsPerRow={2}>
@@ -120,7 +120,7 @@ class App extends Component {
               </Card.Group>
             </Scroll.Element>
             <Scroll.Element name='skills'>
-              <Header as='h1' size='huge' textAlign='right' className='title active'>
+              <Header as='h1' size='large' textAlign='right' className='title active'>
                 <div className='title active'><Icon name='code' />skills</div>
               </Header>
               <Card.Group stackable doubling itemsPerRow={4}>
@@ -295,7 +295,7 @@ class App extends Component {
               </Card.Group>
             </Scroll.Element>
             <Scroll.Element name='contact'>
-              <Header as='h1' size='huge' textAlign='right' className='title active'>
+              <Header as='h1' size='large' textAlign='right' className='title active'>
                 <div className='title active'><Icon name='mail outline' />contact</div>
                 <Form action='https://formspree.io/melvinmok.cy@gmail.com' method='POST'>
                   <Form.Group widths='equal'>
