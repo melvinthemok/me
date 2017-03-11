@@ -20,7 +20,7 @@ class App extends Component {
               <div id='mok'>mok</div>
               <div id='rectangle' />
               <div id='web-dev'>full stack web developer</div>
-              <div id='ex-lawyer'>former IP lawyer</div>
+              <div id='ex-lawyer'>former IP / tech lawyer</div>
               <div id='small-triangle' />
             </Grid.Column>
           </Grid>
@@ -72,11 +72,11 @@ class App extends Component {
                 <Card centered raised>
                   <Card.Content>
                     <Card.Header>Dealmaker</Card.Header>
-                    <Card.Meta>jQuery, Bootstrap</Card.Meta>
+                    <Card.Meta>jQuery, Bootstrap<br />Dec 2016</Card.Meta>
                     <Divider />
                     <Image src='http://i.giphy.com/6q96bEW8ForOE.gif' />
                     <Divider />
-                    <Card.Description>A negotiation game in which 2 players exchange info before making/accepting bids<br />Dec 2016</Card.Description>
+                    <Card.Description>A negotiation game in which 2 players exchange info before making/accepting bids<br /></Card.Description>
                   </Card.Content>
                   <Card.Content extra>
                     <div className='ui two buttons'>
@@ -88,11 +88,11 @@ class App extends Component {
                 <Card centered raised>
                   <Card.Content>
                     <Card.Header>Volenti</Card.Header>
-                    <Card.Meta>NodeJS, Express, MongoDB</Card.Meta>
+                    <Card.Meta>NodeJS, Express, MongoDB<br />Jan 2017</Card.Meta>
                     <Divider />
                     <Image src='http://i.giphy.com/13RQMJjXBF4Yco.gif' />
                     <Divider />
-                    <Card.Description>A volunteering platform for program creators, volunteers and guardians<br />Jan 2017</Card.Description>
+                    <Card.Description>A volunteering platform for program creators, volunteers and guardians<br /></Card.Description>
                   </Card.Content>
                   <Card.Content extra>
                     <div className='ui two buttons'>
@@ -104,11 +104,11 @@ class App extends Component {
                 <Card centered raised>
                   <Card.Content>
                     <Card.Header>WhereWork</Card.Header>
-                    <Card.Meta>Rails, PostgreSQL</Card.Meta>
+                    <Card.Meta>Rails, PostgreSQL<br />Feb 2017</Card.Meta>
                     <Divider />
                     <Image src='http://i.giphy.com/xYtS7VnpMuEpy.gif' />
                     <Divider />
-                    <Card.Description>An app to show the nearest places to work around a current or searched location<br />Feb 2017</Card.Description>
+                    <Card.Description>An app to show the nearest places to work around a current or searched location<br /></Card.Description>
                   </Card.Content>
                   <Card.Content extra>
                     <div className='ui two buttons'>
@@ -239,9 +239,25 @@ class App extends Component {
                 <Card centered raised>
                   <Card.Content>
                     <Card.Header>
+                      <Image src='http://semantic-ui.com/images/logo.png' height='22px' />
+                    </Card.Header>
+                    <Card.Meta>Semantic UI</Card.Meta>
+                  </Card.Content>
+                </Card>
+                <Card centered raised>
+                  <Card.Content>
+                    <Card.Header>
                       <i className='devicon-trello-plain colored' />
                     </Card.Header>
                     <Card.Meta>Trello</Card.Meta>
+                  </Card.Content>
+                </Card>
+                <Card centered raised>
+                  <Card.Content>
+                    <Card.Header>
+                      <Image src='https://camo.githubusercontent.com/3199ff106f7e65e192d14b129c751a3799973c0c/687474703a2f2f7777772e7864756d61696e652e636f6d2f7765627274632e737667' height='22px' />
+                    </Card.Header>
+                    <Card.Meta>WebRTC</Card.Meta>
                   </Card.Content>
                 </Card>
               </Card.Group>
