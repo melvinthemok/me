@@ -1,0 +1,70 @@
+[
+  {
+    "icon": "devicon-bootstrap-plain colored",
+    "description": "Bootstrap"
+  },
+  {
+    "icon": "devicon-css3-plain colored",
+    "description": "CSS3"
+  },
+  {
+    "icon": "devicon-github-plain colored",
+    "description": "GitHub"
+  },
+  {
+    "icon": "devicon-heroku-plain colored",
+    "description": "Heroku"
+  },
+  {
+    "icon": "devicon-html5-plain colored",
+    "description": "HTML5"
+  },
+  {
+    "icon": "devicon-javascript-plain colored",
+    "description": "JavaScript"
+  },
+  {
+    "icon": "devicon-jquery-plain colored",
+    "description": "jQuery"
+  },
+  {
+    "icon": "devicon-mongodb-plain colored",
+    "description": "MongoDB"
+  },
+  {
+    "icon": "devicon-nodejs-plain colored",
+    "description": "Node.js"
+  },
+  {
+    "icon": "devicon-postgresql-plain colored",
+    "description": "PostgreSQL"
+  },
+  {
+    "icon": "devicon-python-plain colored",
+    "description": "Python"
+  },
+  {
+    "icon": "devicon-rails-plain colored",
+    "description": "Rails"
+  },
+  {
+    "icon": "devicon-react-original colored",
+    "description": "React"
+  },
+  {
+    "icon": "devicon-ruby-plain colored",
+    "description": "Ruby"
+  },
+  {
+    "image": "http://semantic-ui.com/images/logo.png",
+    "description": "Semantic UI"
+  },
+  {
+    "icon": "devicon-trello-plain colored",
+    "description": "Trello"
+  },
+  {
+    "image": "https://camo.githubusercontent.com/3199ff106f7e65e192d14b129c751a3799973c0c/687474703a2f2f7777772e7864756d61696e652e636f6d2f7765627274632e737667",
+    "description": "WebRTC"
+  }
+]
