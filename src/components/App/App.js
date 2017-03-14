@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Scroll from 'react-scroll'
-import { Grid, Header, Icon, Divider } from 'semantic-ui-react'
+import { Grid, Icon, Header, Divider } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
 import About from '../About/About.js'
@@ -26,6 +26,15 @@ class App extends Component {
               <div id='ex-lawyer-computer'>former IP / tech lawyer</div>
               <div id='small-triangle-computer' />
             </Grid.Column>
+            <Grid.Column width={16} only='tablet'>
+              <div id='big-triangle-computer' />
+              <div id='melvin-computer'>melvin</div>
+              <div id='mok-computer'>mok</div>
+              <div id='rectangle-computer' />
+              <div id='web-dev-tablet'>full stack web developer</div>
+              <div id='ex-lawyer-tablet'>former IP / tech lawyer</div>
+              <div id='small-triangle-computer' />
+            </Grid.Column>
             <Grid.Column width={16} only='mobile'>
               <div id='dark-rectangle-mobile' />
               <div id='melvin-mobile'>melvin</div>
@@ -40,6 +49,10 @@ class App extends Component {
           </Grid>
         </Scroll.Element>
         <Header as='h1' id='top'>
+          <div id='chevron'>
+            <Icon name='angle up' color='red' />
+          </div>
+          <br />
           <Scroll.Link className='scroll-link' to='splash' smooth offset={-150} duration={500} >
             <span className='M blue'>m</span>
             <span className='M shiftM red'>m</span>
@@ -49,13 +62,13 @@ class App extends Component {
         <Grid stackable relaxed='very' columns={3}>
           <Grid.Column width={3} id='left' />
           <Grid.Column width={10} id='main'>
-            <Scroll.Element name='about'>
+            <Scroll.Element name='about' className='scroll-section'>
               <About />
             </Scroll.Element>
-            <Scroll.Element name='works'>
+            <Scroll.Element name='works' className='scroll-section'>
               <Works />
             </Scroll.Element>
-            <Scroll.Element name='skills'>
+            <Scroll.Element name='skills' className='scroll-section'>
               <Skills />
             </Scroll.Element>
             <Scroll.Element name='contact'>
@@ -66,10 +79,10 @@ class App extends Component {
           </Grid.Column>
           <Grid.Column width={3} only='computer'>
             <div id='sidebar'>
-              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='about' spy smooth offset={-150} duration={500} ><Icon name='help' />about</Scroll.Link></Header>
-              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='works' spy smooth offset={-150} duration={500}><Icon name='folder outline' />works</Scroll.Link></Header>
-              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='skills' spy smooth offset={-150} duration={500}><Icon name='code' />skills</Scroll.Link></Header>
-              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='contact' spy smooth offset={-150} duration={500}><Icon name='mail outline' />contact</Scroll.Link></Header>
+              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='about' spy smooth offset={-170} duration={500}><Icon name='help' />about</Scroll.Link></Header>
+              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='works' spy smooth offset={-170} duration={500}><Icon name='folder outline' />works</Scroll.Link></Header>
+              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='skills' spy smooth offset={-170} duration={500}><Icon name='code' />skills</Scroll.Link></Header>
+              <Header as='h3'><Scroll.Link activeClass='active' className='scroll-link' to='contact' spy smooth offset={-170} duration={500}><Icon name='mail outline' />contact</Scroll.Link></Header>
             </div>
           </Grid.Column>
         </Grid>

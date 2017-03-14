@@ -21,7 +21,7 @@
     "name": "WhereWork",
     "stack": "Rails, PostgreSQL",
     "time": "Feb 2017",
-    "image": "http://i.giphy.com/xYtS7VnpMuEpy.gif",
+    "image": "https://i.imgur.com/Q6ZQzvw.gif",
     "description": "An app to show the nearest places to work around a current or searched location",
     "github": "https://github.com/melvinthemok/wherework",
     "live": "https://wherework.herokuapp.com/"

@@ -19,6 +19,7 @@ class Skills extends Component {
             })
           }
         </Card.Group>
+        <br />
         <Card.Group stackable doubling itemsPerRow={2}>
           {
             otherSkills.map(function (otherSkill) {

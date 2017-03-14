@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Header, Icon, Segment, Image } from 'semantic-ui-react'
+import { Grid, Header, Button, Icon, Segment, Image } from 'semantic-ui-react'
 import headshot from './headshot.png'
 
 class About extends Component {
@@ -15,20 +15,32 @@ class About extends Component {
           </Grid.Column>
           <Grid.Column width={9}>
             <Segment.Group raised>
-              <Segment>Hi I'm Melvin, a full-stack web developer</Segment>
-              <Segment>Some things I like:
-              <ul>
-                <li>making things that work well and look good</li>
-                <li>learning new skills</li>
-                <li>solving interesting problems efficiently</li>
-                <li>asking why and what if</li>
-              </ul>
+              <Segment>Hi I'm Melvin, a full stack web developer. I like:
+                <ul>
+                  <li>making things that work well and look good</li>
+                  <li>learning new skills</li>
+                  <li>efficiency</li>
+                  <li>working with effective people to solve interesting problems</li>
+                  <li>asking why and what if</li>
+                </ul>
+              </Segment>
+              <Segment>Some other things:
+                <ul>
+                  <li>I speak a bit of French</li>
+                  <li>up for football most of the time</li>
+                  <li>I take my Best Man duties seriously</li>
+                </ul>
               </Segment>
               <Segment>I used to:
-              <ul>
-                <li>be a lawyer handling commercial disputes</li>
-                <li>specialize in intellectual property</li>
-              </ul>
+                <ul>
+                  <li>be a lawyer handling commercial disputes</li>
+                  <li>specialize in intellectual property</li>
+                </ul>
+              </Segment>
+              <Segment textAlign='right'>
+                <Button circular icon='mail outline' href='mailto:email@melvinmok.com' />
+                <Button circular icon='github' href='https://github.com/melvinthemok' />
+                <Button circular icon='linkedin' href='https://www.linkedin.com/in/melvinmok' />
               </Segment>
             </Segment.Group>
           </Grid.Column>
