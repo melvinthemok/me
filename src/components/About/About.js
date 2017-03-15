@@ -37,10 +37,17 @@ class About extends Component {
                   <li>specialize in intellectual property</li>
                 </ul>
               </Segment>
-              <Segment textAlign='right'>
-                <Button circular icon='mail outline' href='mailto:email@melvinmok.com' />
-                <Button circular icon='github' href='https://github.com/melvinthemok' />
-                <Button circular icon='linkedin' href='https://www.linkedin.com/in/melvinmok' />
+              <Segment>
+                <Grid columns={2}>
+                  <Grid.Column width={6} textAlign='left' verticalAlign='middle'>
+                    <a href={process.env.PUBLIC_URL + '/melvin-mok-cv.pdf'} download={process.env.PUBLIC_URL + '/melvin-mok-cv.pdf'}>Résumé</a>
+                  </Grid.Column>
+                  <Grid.Column width={10} textAlign='right'>
+                    <Button circular icon='mail outline' href='mailto:email@melvinmok.com' />
+                    <Button circular icon='github' href='https://github.com/melvinthemok' />
+                    <Button circular icon='linkedin' href='https://www.linkedin.com/in/melvinmok' />
+                  </Grid.Column>
+                </Grid>
               </Segment>
             </Segment.Group>
           </Grid.Column>
