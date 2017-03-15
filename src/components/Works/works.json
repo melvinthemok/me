@@ -10,7 +10,7 @@
   },
   {
     "name": "Volenti",
-    "stack": "NodeJS, Express, MongoDB",
+    "stack": "Node.js, Express, MongoDB",
     "time": "Jan 2017",
     "image": "/volenti.gif",
     "description": "A volunteering platform for program creators, volunteers and guardians",
