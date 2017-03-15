@@ -56,7 +56,7 @@
     "description": "Ruby"
   },
   {
-    "image": "http://semantic-ui.com/images/logo.png",
+    "image": "/semantic-ui.png",
     "description": "Semantic UI"
   },
   {
@@ -64,7 +64,7 @@
     "description": "Trello"
   },
   {
-    "image": "https://camo.githubusercontent.com/3199ff106f7e65e192d14b129c751a3799973c0c/687474703a2f2f7777772e7864756d61696e652e636f6d2f7765627274632e737667",
+    "image": "/webRTC.svg",
     "description": "WebRTC"
   }
 ]

@@ -9,7 +9,7 @@ class Work extends Component {
           <Card.Header>{this.props.name}</Card.Header>
           <Card.Meta>{this.props.stack}<br />{this.props.time}</Card.Meta>
           <Divider />
-          <Image src={this.props.image} />
+          <Image src={process.env.PUBLIC_URL + this.props.image} />
           <Divider />
           <Card.Description>{this.props.description}<br /></Card.Description>
         </Card.Content>

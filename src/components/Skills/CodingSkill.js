@@ -8,7 +8,7 @@ class CodingSkill extends Component {
         <Card.Content>
           <Card.Header>
             { this.props.icon && <i className={this.props.icon} /> }
-            { this.props.image && <Image src={this.props.image} height='22px' /> }
+            { this.props.image && <Image src={process.env.PUBLIC_URL + this.props.image} height='22px' /> }
           </Card.Header>
           <Card.Meta>{this.props.description}</Card.Meta>
         </Card.Content>

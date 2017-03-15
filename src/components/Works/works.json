@@ -3,7 +3,7 @@
     "name": "Dealmaker",
     "stack": "jQuery, Bootstrap",
     "time": "Dec 2016",
-    "image": "http://i.giphy.com/6q96bEW8ForOE.gif",
+    "image": "/dealmaker.gif",
     "description": "A negotiation game in which 2 players exchange info before making/accepting bids",
     "github": "https://github.com/melvinthemok/dealmaker-game",
     "live": "https://melvinthemok.github.io/dealmaker-game/"
@@ -12,7 +12,7 @@
     "name": "Volenti",
     "stack": "NodeJS, Express, MongoDB",
     "time": "Jan 2017",
-    "image": "http://i.giphy.com/13RQMJjXBF4Yco.gif",
+    "image": "/volenti.gif",
     "description": "A volunteering platform for program creators, volunteers and guardians",
     "github": "https://github.com/melvinthemok/volenti",
     "live": "https://volenti.herokuapp.com/"
@@ -21,7 +21,7 @@
     "name": "WhereWork",
     "stack": "Rails, PostgreSQL",
     "time": "Feb 2017",
-    "image": "https://i.imgur.com/Q6ZQzvw.gif",
+    "image": "/wherework.gif",
     "description": "An app to show the nearest places to work around a current or searched location",
     "github": "https://github.com/melvinthemok/wherework",
     "live": "https://wherework.herokuapp.com/"
